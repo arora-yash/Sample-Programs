@@ -7,8 +7,8 @@ public class Test {
 
     for(int i = first+1;i < last;i++) {
       int count = 0;
-      for(int i = 2;i <= Math.sqrt(n);i++)
-      	if(n%i==0)
+      for(int j = 2;j <= Math.sqrt(n);j++)
+      	if(i%j==0)
       		count++;
 
       if(count == 0)
