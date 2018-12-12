@@ -7,7 +7,7 @@ public class Test {
 		int fact = 1;
 
 		if(n==0)
-			System.out.println("1");
+			System.out.println(fact);
 		else {
 			for(int i = 1;i<=n;i++)
 			fact = fact*i;
