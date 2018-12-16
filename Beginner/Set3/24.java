@@ -4,6 +4,7 @@ public class Test {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int a[] = new int[n];
+		int temp;
 		
 		for(int i = 0;i<n;i++)
 			a[i] = sc.nextInt();
