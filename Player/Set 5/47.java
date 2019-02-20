@@ -7,8 +7,12 @@ public class Main {
     float b = sc.nextFloat();
     float c = sc.nextFloat();
 
-    if((a+b+c) == 180)
-      System.out.println("yes");
+    if(a!=0 && b!=0 && c!=0) {
+      if((a+b+c) == 180)
+        System.out.println("yes");
+      else
+        System.out.println("no");
+    }
     else
       System.out.println("no");
   }
